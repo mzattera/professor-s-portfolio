@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import MarkdownPage from "@/components/MarkdownPage";
 
-const Index = () => {
+const Publications = () => {
   return (
     <Layout>
-      <MarkdownPage filePath="/content/about.md" />
+      <MarkdownPage filePath="/content/publications.md" />
     </Layout>
   );
 };
 
-export default Index;
+export default Publications;
