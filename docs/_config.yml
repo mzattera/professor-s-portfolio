@@ -1,8 +1,8 @@
 # Site settings
 title: "Dr. Eleanor Mitchell"
 description: "Professor of Computer Science at Stanford University"
-url: "" # Your GitHub Pages URL, e.g., https://username.github.io
-baseurl: "" # Subpath if hosted at /repository-name/
+url: "https://mzattera.github.io"
+baseurl: "/professor-s-portfolio"
 
 # Build settings
 markdown: kramdown
