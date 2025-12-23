@@ -12,13 +12,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
     :root {
-      --color-primary: #1e293b;
-      --color-secondary: #475569;
-      --color-accent: #d946ef;
-      --color-accent-light: #f0abfc;
-      --color-background: #f8f8f8;
+      --color-primary: #2d2d2d;
+      --color-secondary: #4a4a4a;
+      --color-accent: #b54a4a;
+      --color-accent-dark: #6b1a1a;
+      --color-accent-light: #e8a0a0;
+      --color-teal: #3d6b6b;
+      --color-teal-light: #7a9e9e;
+      --color-olive: #8a9a3b;
+      --color-background: #f8f6f4;
       --color-surface: #ffffff;
-      --color-border: #e2e8f0;
+      --color-border: #d4cfc8;
       --font-serif: 'Playfair Display', Georgia, serif;
       --font-sans: 'Source Sans 3', system-ui, sans-serif;
     }
@@ -39,67 +43,59 @@
       flex-direction: column;
     }
     
-    /* Icon Navigation */
-    .icon-nav {
-      background: var(--color-background);
-      padding: 1.5rem 2rem;
+    /* Header Navigation */
+    .site-header {
+      background: var(--color-surface);
+      border-bottom: 1px solid var(--color-border);
+      padding: 1.25rem 2rem;
       display: flex;
-      justify-content: center;
-      gap: 0;
-    }
-    
-    .icon-nav-item {
-      display: flex;
-      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
-      text-decoration: none;
-      padding: 0.75rem 1.25rem;
-      position: relative;
-      transition: all 0.2s ease;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
     }
     
-    .icon-nav-item i {
-      font-size: 1.75rem;
-      color: #666;
+    .site-title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--color-primary);
+      text-decoration: none;
       transition: color 0.2s ease;
     }
     
-    .icon-nav-item:hover i,
-    .icon-nav-item.active i {
+    .site-title:hover {
       color: var(--color-accent);
+      text-decoration: none;
     }
     
-    .icon-nav-item.active::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 10px solid var(--color-accent);
+    .site-nav {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
     }
     
-    .icon-nav-item .tooltip {
-      position: absolute;
-      bottom: -25px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--color-primary);
-      color: white;
-      padding: 0.25rem 0.5rem;
+    .nav-link {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--color-secondary);
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
       border-radius: 4px;
-      font-size: 0.75rem;
-      white-space: nowrap;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.2s ease;
+      transition: all 0.2s ease;
     }
     
-    .icon-nav-item:hover .tooltip {
-      opacity: 1;
+    .nav-link:hover {
+      color: var(--color-accent);
+      background: rgba(181, 74, 74, 0.08);
+      text-decoration: none;
+    }
+    
+    .nav-link.active {
+      color: var(--color-accent);
+      background: rgba(181, 74, 74, 0.1);
     }
     
     /* Main content */
@@ -126,7 +122,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      border-top: 4px solid var(--color-accent);
+      border-top: 4px solid var(--color-teal);
     }
     
     .hero-content h1 {
@@ -261,7 +257,7 @@
     .content-wrapper {
       background: var(--color-surface);
       border: 1px solid var(--color-border);
-      border-top: 4px solid var(--color-accent);
+      border-top: 4px solid var(--color-teal);
       padding: 3rem;
     }
     
@@ -285,21 +281,26 @@
     }
     
     /* Responsive */
-    @media (max-width: 768px) {
-      .icon-nav {
-        flex-wrap: wrap;
-        gap: 0.5rem;
+    @media (max-width: 900px) {
+      .site-header {
+        flex-direction: column;
+        gap: 1rem;
         padding: 1rem;
       }
       
-      .icon-nav-item {
-        padding: 0.5rem 0.75rem;
+      .site-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
       }
       
-      .icon-nav-item i {
-        font-size: 1.25rem;
+      .nav-link {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.6rem;
       }
-      
+    }
+    
+    @media (max-width: 768px) {
       .hero-section {
         grid-template-columns: 1fr;
       }
@@ -328,40 +329,19 @@
   </style>
 </head>
 <body>
-  <nav class="icon-nav">
-    <a href="{{ '/' | relative_url }}" class="icon-nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
-      <i class="fas fa-home"></i>
-      <span class="tooltip">Home</span>
-    </a>
-    <a href="{{ '/about/' | relative_url }}" class="icon-nav-item {% if page.url == '/about/' %}active{% endif %}">
-      <i class="fas fa-user"></i>
-      <span class="tooltip">About</span>
-    </a>
-    <a href="{{ '/team/' | relative_url }}" class="icon-nav-item {% if page.url == '/team/' %}active{% endif %}">
-      <i class="fas fa-users"></i>
-      <span class="tooltip">Team</span>
-    </a>
-    <a href="{{ '/publications/' | relative_url }}" class="icon-nav-item {% if page.url == '/publications/' %}active{% endif %}">
-      <i class="fas fa-newspaper"></i>
-      <span class="tooltip">Publications</span>
-    </a>
-    <a href="{{ '/projects/' | relative_url }}" class="icon-nav-item {% if page.url == '/projects/' %}active{% endif %}">
-      <i class="fas fa-desktop"></i>
-      <span class="tooltip">Projects</span>
-    </a>
-    <a href="{{ '/teaching/' | relative_url }}" class="icon-nav-item {% if page.url == '/teaching/' %}active{% endif %}">
-      <i class="fas fa-chalkboard-teacher"></i>
-      <span class="tooltip">Teaching</span>
-    </a>
-    <a href="{{ '/code/' | relative_url }}" class="icon-nav-item {% if page.url == '/code/' %}active{% endif %}">
-      <i class="fas fa-code"></i>
-      <span class="tooltip">Code</span>
-    </a>
-    <a href="{{ '/contact/' | relative_url }}" class="icon-nav-item {% if page.url == '/contact/' %}active{% endif %}">
-      <i class="fas fa-envelope"></i>
-      <span class="tooltip">Contact</span>
-    </a>
-  </nav>
+  <header class="site-header">
+    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title | default: "Academic Portfolio" }}</a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
+      <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
+      <a href="{{ '/team/' | relative_url }}" class="nav-link {% if page.url == '/team/' %}active{% endif %}">Team</a>
+      <a href="{{ '/publications/' | relative_url }}" class="nav-link {% if page.url == '/publications/' %}active{% endif %}">Publications</a>
+      <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+      <a href="{{ '/teaching/' | relative_url }}" class="nav-link {% if page.url == '/teaching/' %}active{% endif %}">Teaching</a>
+      <a href="{{ '/code/' | relative_url }}" class="nav-link {% if page.url == '/code/' %}active{% endif %}">Code</a>
+      <a href="{{ '/contact/' | relative_url }}" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+    </nav>
+  </header>
   
   <main>
     {{ content }}
