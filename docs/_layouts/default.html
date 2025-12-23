@@ -333,13 +333,13 @@
       <i class="fas fa-home"></i>
       <span class="tooltip">Home</span>
     </a>
-    <a href="{{ '/' | relative_url }}#about" class="icon-nav-item">
+    <a href="{{ '/about/' | relative_url }}" class="icon-nav-item {% if page.url == '/about/' %}active{% endif %}">
       <i class="fas fa-user"></i>
       <span class="tooltip">About</span>
     </a>
-    <a href="{{ '/' | relative_url }}#research" class="icon-nav-item">
+    <a href="{{ '/team/' | relative_url }}" class="icon-nav-item {% if page.url == '/team/' %}active{% endif %}">
       <i class="fas fa-users"></i>
-      <span class="tooltip">Research</span>
+      <span class="tooltip">Team</span>
     </a>
     <a href="{{ '/publications/' | relative_url }}" class="icon-nav-item {% if page.url == '/publications/' %}active{% endif %}">
       <i class="fas fa-newspaper"></i>
@@ -349,19 +349,15 @@
       <i class="fas fa-desktop"></i>
       <span class="tooltip">Projects</span>
     </a>
-    <a href="{{ '/' | relative_url }}#teaching" class="icon-nav-item">
+    <a href="{{ '/teaching/' | relative_url }}" class="icon-nav-item {% if page.url == '/teaching/' %}active{% endif %}">
       <i class="fas fa-chalkboard-teacher"></i>
       <span class="tooltip">Teaching</span>
     </a>
-    <a href="{{ '/' | relative_url }}#code" class="icon-nav-item">
+    <a href="{{ '/code/' | relative_url }}" class="icon-nav-item {% if page.url == '/code/' %}active{% endif %}">
       <i class="fas fa-code"></i>
       <span class="tooltip">Code</span>
     </a>
-    <a href="{{ '/' | relative_url }}#education" class="icon-nav-item">
-      <i class="fas fa-graduation-cap"></i>
-      <span class="tooltip">Education</span>
-    </a>
-    <a href="{{ '/' | relative_url }}#contact" class="icon-nav-item">
+    <a href="{{ '/contact/' | relative_url }}" class="icon-nav-item {% if page.url == '/contact/' %}active{% endif %}">
       <i class="fas fa-envelope"></i>
       <span class="tooltip">Contact</span>
     </a>
