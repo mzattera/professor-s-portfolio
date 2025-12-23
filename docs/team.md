@@ -3,7 +3,7 @@ layout: default
 title: Research Team
 ---
 
-<div class="content-wrapper">
+<div class="content-wrapper" markdown="1">
 
 # Research Team
 
