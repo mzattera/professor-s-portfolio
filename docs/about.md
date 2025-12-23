@@ -19,7 +19,7 @@ Associate Professor of Computer Science at Stanford University, within the Depar
 
 ---
 
-<h2 id="nsq">National Scientific Qualification</h2>
+## National Scientific Qualification
 
 - **Full Professor** in Computer Science (01/B1) - Obtained 2023
 - **Associate Professor** in Computer Science (01/B1) - Obtained 2018
