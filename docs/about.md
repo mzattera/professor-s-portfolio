@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About Meeeez
 ---
 
 <div class="content-wrapper" markdown="1">
