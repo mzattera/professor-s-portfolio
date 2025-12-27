@@ -2,7 +2,7 @@
 title: "Dr. Eleanor Mitchell"
 description: "Professor of Computer Science at Stanford University"
 url: "https://xelioslabs.com"
-baseurl: "/professor-s-portfolio"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
