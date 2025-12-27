@@ -5,7 +5,7 @@ title: About Meeeez
 
 <div class="content-wrapper" markdown="1">
 
-# About me
+# About meeez
 
 Jump to: [National Scientific Qualification](#nsq) - [Appointments](#appointments) - [Education](#education) - [Awards](#awards) - [Media Coverage](#media)
 
