@@ -39,67 +39,42 @@
       flex-direction: column;
     }
     
-    /* Icon Navigation */
-    .icon-nav {
+    /* Text Navigation */
+    .text-nav {
       background: var(--color-background);
       padding: 1.5rem 2rem;
       display: flex;
-      justify-content: center;
-      gap: 0;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
     }
     
-    .icon-nav-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .text-nav-item {
       text-decoration: none;
-      padding: 0.75rem 1.25rem;
-      position: relative;
-      transition: all 0.2s ease;
-    }
-    
-    .icon-nav-item i {
-      font-size: 1.75rem;
-      color: #666;
+      padding: 0.5rem 1rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--color-secondary);
       transition: color 0.2s ease;
+      position: relative;
     }
     
-    .icon-nav-item:hover i,
-    .icon-nav-item.active i {
+    .text-nav-item:hover,
+    .text-nav-item.active {
       color: var(--color-accent);
     }
     
-    .icon-nav-item.active::after {
+    .text-nav-item.active::after {
       content: '';
       position: absolute;
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 10px solid var(--color-accent);
-    }
-    
-    .icon-nav-item .tooltip {
-      position: absolute;
-      bottom: -25px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--color-primary);
-      color: white;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.75rem;
-      white-space: nowrap;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.2s ease;
-    }
-    
-    .icon-nav-item:hover .tooltip {
-      opacity: 1;
+      width: 80%;
+      height: 2px;
+      background: var(--color-accent);
     }
     
     /* Main content */
@@ -216,18 +191,16 @@
     
     /* Responsive */
     @media (max-width: 768px) {
-      .icon-nav {
+      .text-nav {
         flex-wrap: wrap;
-        gap: 0.5rem;
+        gap: 0.25rem;
         padding: 1rem;
+        justify-content: center;
       }
       
-      .icon-nav-item {
-        padding: 0.5rem 0.75rem;
-      }
-      
-      .icon-nav-item i {
-        font-size: 1.25rem;
+      .text-nav-item {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.85rem;
       }
       
       .hero-section {
@@ -254,39 +227,15 @@
   </style>
 </head>
 <body>
-  <nav class="icon-nav">
-    <a href="{{ '/' | relative_url }}" class="icon-nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
-      <i class="fas fa-home"></i>
-      <span class="tooltip">Home</span>
-    </a>
-    <a href="{{ '/about/' | relative_url }}" class="icon-nav-item {% if page.url == '/about/' %}active{% endif %}">
-      <i class="fas fa-user"></i>
-      <span class="tooltip">About</span>
-    </a>
-    <a href="{{ '/team/' | relative_url }}" class="icon-nav-item {% if page.url == '/team/' %}active{% endif %}">
-      <i class="fas fa-users"></i>
-      <span class="tooltip">Team</span>
-    </a>
-    <a href="{{ '/publications/' | relative_url }}" class="icon-nav-item {% if page.url == '/publications/' %}active{% endif %}">
-      <i class="fas fa-newspaper"></i>
-      <span class="tooltip">Publications</span>
-    </a>
-    <a href="{{ '/projects/' | relative_url }}" class="icon-nav-item {% if page.url == '/projects/' %}active{% endif %}">
-      <i class="fas fa-desktop"></i>
-      <span class="tooltip">Projects</span>
-    </a>
-    <a href="{{ '/teaching/' | relative_url }}" class="icon-nav-item {% if page.url == '/teaching/' %}active{% endif %}">
-      <i class="fas fa-chalkboard-teacher"></i>
-      <span class="tooltip">Teaching</span>
-    </a>
-    <a href="{{ '/code/' | relative_url }}" class="icon-nav-item {% if page.url == '/code/' %}active{% endif %}">
-      <i class="fas fa-code"></i>
-      <span class="tooltip">Code</span>
-    </a>
-    <a href="{{ '/contact/' | relative_url }}" class="icon-nav-item {% if page.url == '/contact/' %}active{% endif %}">
-      <i class="fas fa-envelope"></i>
-      <span class="tooltip">Contact</span>
-    </a>
+  <nav class="text-nav">
+    <a href="{{ '/' | relative_url }}" class="text-nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
+    <a href="{{ '/about/' | relative_url }}" class="text-nav-item {% if page.url == '/about/' %}active{% endif %}">About</a>
+    <a href="{{ '/team/' | relative_url }}" class="text-nav-item {% if page.url == '/team/' %}active{% endif %}">Team</a>
+    <a href="{{ '/publications/' | relative_url }}" class="text-nav-item {% if page.url == '/publications/' %}active{% endif %}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}" class="text-nav-item {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+    <a href="{{ '/teaching/' | relative_url }}" class="text-nav-item {% if page.url == '/teaching/' %}active{% endif %}">Teaching</a>
+    <a href="{{ '/code/' | relative_url }}" class="text-nav-item {% if page.url == '/code/' %}active{% endif %}">Code</a>
+    <a href="{{ '/contact/' | relative_url }}" class="text-nav-item {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
   </nav>
   
   <main>
