@@ -261,37 +261,33 @@
 {% if lang == "it" %}
   {% assign home_url = "/it/" %}
   {% assign about_url = "/it/about/" %}
-  {% assign team_url = "/it/team/" %}
+  {% assign activities_url = "/it/activities/" %}
   {% assign publications_url = "/it/publications/" %}
-  {% assign projects_url = "/it/projects/" %}
-  {% assign teaching_url = "/it/teaching/" %}
-  {% assign code_url = "/it/code/" %}
+  {% assign resources_url = "/it/resources/" %}
+  {% assign personal_url = "/it/personal/" %}
   {% assign contact_url = "/it/contact/" %}
   {% assign nav_home = "Home" %}
   {% assign nav_about = "Chi Sono" %}
-  {% assign nav_team = "Gruppo" %}
+  {% assign nav_activities = "Attività" %}
   {% assign nav_publications = "Pubblicazioni" %}
-  {% assign nav_projects = "Progetti" %}
-  {% assign nav_teaching = "Didattica" %}
-  {% assign nav_code = "Codice" %}
+  {% assign nav_resources = "Altre Risorse" %}
+  {% assign nav_personal = "Personale" %}
   {% assign nav_contact = "Contatti" %}
   {% assign alt_lang_url = "/" %}
 {% else %}
   {% assign home_url = "/" %}
   {% assign about_url = "/about/" %}
-  {% assign team_url = "/team/" %}
+  {% assign activities_url = "/activities/" %}
   {% assign publications_url = "/publications/" %}
-  {% assign projects_url = "/projects/" %}
-  {% assign teaching_url = "/teaching/" %}
-  {% assign code_url = "/code/" %}
+  {% assign resources_url = "/resources/" %}
+  {% assign personal_url = "/personal/" %}
   {% assign contact_url = "/contact/" %}
   {% assign nav_home = "Home" %}
   {% assign nav_about = "About" %}
-  {% assign nav_team = "Team" %}
+  {% assign nav_activities = "Activities" %}
   {% assign nav_publications = "Publications" %}
-  {% assign nav_projects = "Projects" %}
-  {% assign nav_teaching = "Teaching" %}
-  {% assign nav_code = "Code" %}
+  {% assign nav_resources = "Resources" %}
+  {% assign nav_personal = "Personal" %}
   {% assign nav_contact = "Contact" %}
   {% assign alt_lang_url = "/it/" %}
 {% endif %}
@@ -299,11 +295,10 @@
   <nav class="text-nav">
     <a href="{{ home_url | relative_url }}" class="text-nav-item {% if page.url == home_url or page.url == '/index.html' or page.url == '/it/index.html' %}active{% endif %}">{{ nav_home }}</a>
     <a href="{{ about_url | relative_url }}" class="text-nav-item {% if page.url contains 'about' %}active{% endif %}">{{ nav_about }}</a>
-    <a href="{{ team_url | relative_url }}" class="text-nav-item {% if page.url contains 'team' %}active{% endif %}">{{ nav_team }}</a>
+    <a href="{{ activities_url | relative_url }}" class="text-nav-item {% if page.url contains 'activities' %}active{% endif %}">{{ nav_activities }}</a>
     <a href="{{ publications_url | relative_url }}" class="text-nav-item {% if page.url contains 'publications' %}active{% endif %}">{{ nav_publications }}</a>
-    <a href="{{ projects_url | relative_url }}" class="text-nav-item {% if page.url contains 'projects' %}active{% endif %}">{{ nav_projects }}</a>
-    <a href="{{ teaching_url | relative_url }}" class="text-nav-item {% if page.url contains 'teaching' %}active{% endif %}">{{ nav_teaching }}</a>
-    <a href="{{ code_url | relative_url }}" class="text-nav-item {% if page.url contains 'code' %}active{% endif %}">{{ nav_code }}</a>
+    <a href="{{ resources_url | relative_url }}" class="text-nav-item {% if page.url contains 'resources' %}active{% endif %}">{{ nav_resources }}</a>
+    <a href="{{ personal_url | relative_url }}" class="text-nav-item {% if page.url contains 'personal' %}active{% endif %}">{{ nav_personal }}</a>
     <a href="{{ contact_url | relative_url }}" class="text-nav-item {% if page.url contains 'contact' %}active{% endif %}">{{ nav_contact }}</a>
     <div class="lang-switcher">
       <a href="{{ '/' | relative_url }}" {% if lang == "en" %}class="active"{% endif %}>EN</a>
