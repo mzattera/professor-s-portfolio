@@ -295,11 +295,10 @@
   <nav class="text-nav">
     <a href="{{ home_url | relative_url }}" class="text-nav-item {% if page.url == home_url or page.url == '/index.html' or page.url == '/it/index.html' %}active{% endif %}">{{ nav_home }}</a>
     <a href="{{ about_url | relative_url }}" class="text-nav-item {% if page.url contains 'about' %}active{% endif %}">{{ nav_about }}</a>
-    <a href="{{ team_url | relative_url }}" class="text-nav-item {% if page.url contains 'team' %}active{% endif %}">{{ nav_team }}</a>
+    <a href="{{ activities_url | relative_url }}" class="text-nav-item {% if page.url contains 'activities' %}active{% endif %}">{{ nav_activities }}</a>
     <a href="{{ publications_url | relative_url }}" class="text-nav-item {% if page.url contains 'publications' %}active{% endif %}">{{ nav_publications }}</a>
-    <a href="{{ projects_url | relative_url }}" class="text-nav-item {% if page.url contains 'projects' %}active{% endif %}">{{ nav_projects }}</a>
-    <a href="{{ teaching_url | relative_url }}" class="text-nav-item {% if page.url contains 'teaching' %}active{% endif %}">{{ nav_teaching }}</a>
-    <a href="{{ code_url | relative_url }}" class="text-nav-item {% if page.url contains 'code' %}active{% endif %}">{{ nav_code }}</a>
+    <a href="{{ resources_url | relative_url }}" class="text-nav-item {% if page.url contains 'resources' %}active{% endif %}">{{ nav_resources }}</a>
+    <a href="{{ personal_url | relative_url }}" class="text-nav-item {% if page.url contains 'personal' %}active{% endif %}">{{ nav_personal }}</a>
     <a href="{{ contact_url | relative_url }}" class="text-nav-item {% if page.url contains 'contact' %}active{% endif %}">{{ nav_contact }}</a>
     <div class="lang-switcher">
       <a href="{{ '/' | relative_url }}" {% if lang == "en" %}class="active"{% endif %}>EN</a>
