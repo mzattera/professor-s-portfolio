@@ -31,7 +31,7 @@ title: Home
       <i class="fas fa-user"></i>
     </div>
     <!-- Replace the placeholder above with your profile image: -->
-    <!-- <img src="assets/images/profile.jpg" alt="Dr. Eleanor Mitchell"> -->
+    <!-- <img src="assets/images/profile.jpg" alt="Piergio"> -->
   </div>
 </div>
 
