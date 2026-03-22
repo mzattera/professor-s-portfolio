@@ -62,7 +62,7 @@ Coordinamento e partecipazione a progetti di ricerca nazionali e internazionali 
 
 ---
 
-<h2 id="convegni">Convegni</h2>
+<h2 id="convegni">Comitati Scientifici</h2>
 
 Organizzazione di eventi scientifici e partecipazione a comitati scientifici nel settore del Software Libero e degli Open Data.
 
@@ -72,8 +72,6 @@ Organizzazione di eventi scientifici e partecipazione a comitati scientifici nel
 
 - **Didattica Aperta**: Coordinatrice del convegno su libero accesso all'informatica e condivisione della conoscenza (2010 – 2018).
 
-- **Public Archaeology a Verona** (2017): Organizzatrice e docente delle giornate formative sulla documentazione della via Postumia tramite Wikipedia e OpenStreetMap.
-
-- **CoderDojo Padova**: Co-fondatrice e coordinatrice di incontri formativi mensili per l'insegnamento del pensiero computazionale ai ragazzi (2013 – in corso).
+- **Public Archaeology a Verona** (2017): Organizzatrice e docente delle giornate formative sulla documentazione della via Postumia tramite Wikipedia e OpenStreetMap
 
 </div>
