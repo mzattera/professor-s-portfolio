@@ -11,7 +11,7 @@ title: Contact
 
 The best way to reach me is via email:
 
-**[eleanor.mitchell@stanford.edu](mailto:eleanor.mitchell@stanford.edu)**
+**[piergio@stanford.edu](mailto:piergio@stanford.edu)**
 
 *Please note that due to the high volume of emails I receive, I may not be able to respond to all inquiries. For prospective students, please see the information below.*
 

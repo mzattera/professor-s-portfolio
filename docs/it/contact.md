@@ -12,7 +12,7 @@ lang: it
 
 Il modo migliore per contattarmi è via email:
 
-**[eleanor.mitchell@stanford.edu](mailto:eleanor.mitchell@stanford.edu)**
+**[piergio@stanford.edu](mailto:piergio@stanford.edu)**
 
 *Si prega di notare che a causa dell'elevato volume di email che ricevo, potrei non essere in grado di rispondere a tutte le richieste. Per gli studenti interessati, si prega di consultare le informazioni di seguito.*
 

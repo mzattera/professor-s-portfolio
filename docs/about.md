@@ -60,6 +60,6 @@ Associate Professor of Computer Science at Stanford University, within the Depar
 
 - [MIT Technology Review: "The Future of Language Models"](#) - January 2024
 - [Wired: "How AI is Changing Research"](#) - November 2023
-- [Stanford News: "Professor Mitchell Receives NSF CAREER Award"](#) - March 2021
+- [Stanford News: "Professor Piergio Receives NSF CAREER Award"](#) - March 2021
 
 </div>

@@ -61,6 +61,6 @@ Professoressa Associata di Informatica presso la Stanford University, nel Dipart
 
 - [MIT Technology Review: "Il Futuro dei Modelli Linguistici"](#) - Gennaio 2024
 - [Wired: "Come l'IA sta Cambiando la Ricerca"](#) - Novembre 2023
-- [Stanford News: "La Prof.ssa Mitchell Riceve l'NSF CAREER Award"](#) - Marzo 2021
+- [Stanford News: "Il Prof. Piergio Riceve l'NSF CAREER Award"](#) - Marzo 2021
 
 </div>

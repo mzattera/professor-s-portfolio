@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero-section">
   <div class="hero-content">
-    <h1>Dr. Eleanor Mitchell</h1>
+    <h1>Piergio</h1>
     <div class="academic-links">
       <a href="https://scholar.google.com/" target="_blank">
         <span style="color: #4285f4;">G</span><span style="color: #ea4335;">o</span><span style="color: #fbbc05;">o</span><span style="color: #4285f4;">g</span><span style="color: #34a853;">l</span><span style="color: #ea4335;">e</span>
@@ -31,7 +31,7 @@ title: Home
       <i class="fas fa-user"></i>
     </div>
     <!-- Replace the placeholder above with your profile image: -->
-    <!-- <img src="assets/images/profile.jpg" alt="Dr. Eleanor Mitchell"> -->
+    <!-- <img src="assets/images/profile.jpg" alt="Piergio"> -->
   </div>
 </div>
 
