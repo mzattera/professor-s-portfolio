@@ -8,59 +8,19 @@ lang: it
 
 # Chi Sono
 
-Vai a: [Abilitazione Scientifica Nazionale](#asn) - [Incarichi](#incarichi) - [Formazione](#formazione) - [Premi](#premi) - [Copertura Mediatica](#media)
+## Profilo professionale e accademico
+Mi chiamo Piergiovanna Grossi e la mia attività accademica e professionale si colloca all'intersezione tra le scienze dell'antichità e le tecnologie informatiche applicate ai Beni Culturali. In qualità di docente e ricercatrice nel campo delle Digital Humanities, mi dedico allo sviluppo di metodologie innovative per la gestione, la tutela e la valorizzazione del patrimonio storico-archeologico attraverso strumenti digitali avanzati.
 
-Professoressa Associata di Informatica presso la Stanford University, nel Dipartimento di Informatica.
+## Attività didattica e incarichi istituzionali
+Attualmente, ricopro diversi incarichi di docenza presso l'Università degli Studi di Verona, dove coordino laboratori di Informatica Umanistica, Progettazione Web e Digital Accessibility, con particolare attenzione al design e alle tecnologie multimediali per la cultura digitale. La mia attività didattica si estende inoltre all'Università di Udine, dove approfondisco l'applicazione dei Large Language Models (LLM) e dell'intelligenza artificiale negli studi classici, e all'Università di Bologna nell'ambito della Summer School DIGITARCH, dove mi occupo specificamente di curatela digitale per le collezioni archeologiche.
 
-**Interessi di Ricerca:** Intelligenza Artificiale, Modelli Linguistici, Elaborazione del Linguaggio Naturale, Estrazione di Informazioni, Web Semantico, Rappresentazione e Ragionamento della Conoscenza, Digital Humanities, Machine/Deep Learning, Metodologie e Strumenti per l'Acquisizione Collaborativa della Conoscenza, Complessità Computazionale, Teoria Algoritmica dei Grafi, Ottimizzazione Combinatoria
+## Ricerca scientifica e Public Archaeology
+Il mio percorso di ricerca è caratterizzato da un impegno costante verso i paradigmi della "conoscenza aperta" e della Public Archaeology. Questo interesse si traduce operativamente nell'integrazione dei progetti Wikimedia e dei dati geografici aperti (GFOSS) nei processi di ricerca e divulgazione scientifica. Ho coordinato numerosi progetti di Sistemi Informativi Territoriali Archeologici (SITA), tra cui quelli relativi alla città di Verona e al territorio di Rubiera, curando la modellazione dei dati secondo standard internazionali e l'implementazione di interfacce web per la consultazione pubblica. Parallelamente, mantengo una solida collaborazione con istituzioni internazionali di prestigio, quali l'Università di Zurigo e l'Accademia delle Scienze di Berlino, contribuendo all'edizione dei miliari d'Italia per il Corpus Inscriptionum Latinarum.
 
-**Settori di Ricerca (ERC):** PE6_7 - Intelligenza artificiale, sistemi intelligenti, elaborazione del linguaggio naturale, PE6_10 - Sistemi web e informativi, sistemi di gestione dati, recupero informazioni e biblioteche digitali, fusione dati
+## Cultura digitale e impegno civile
+Oltre all'ambito strettamente accademico, promuovo attivamente la diffusione della cultura digitale e del software libero come strumenti di democrazia e partecipazione. Sono tra i fondatori di CoderDojo Padova, dove coordino attività volte allo sviluppo del pensiero computazionale nelle nuove generazioni, e collaboro con realtà come Wikimedia Italia per favorire l'adozione di standard aperti e garantire la massima accessibilità del sapere all'interno delle istituzioni culturali e della pubblica amministrazione.
 
-**Curriculum Vitae:** [IT](#) - [PDF](#) (Aggiornato: 18 Dic 2024)
-
----
-
-<h2 id="asn">Abilitazione Scientifica Nazionale</h2>
-
-- **Professore Ordinario** in Informatica (01/B1) - Ottenuta 2023
-- **Professore Associato** in Informatica (01/B1) - Ottenuta 2018
-
----
-
-<h2 id="incarichi">Incarichi</h2>
-
-- **2020 - Presente**: Professoressa Associata, Stanford University
-- **2015 - 2020**: Ricercatrice, Stanford University
-- **2012 - 2015**: Ricercatrice Post-dottorato, Carnegie Mellon University
-- **2010 - 2012**: Ricercatrice Associata, MIT CSAIL
-
----
-
-<h2 id="formazione">Formazione</h2>
-
-- **Dottorato in Informatica**, Massachusetts Institute of Technology, 2010
-  - Tesi: "Approcci Neurali alla Comprensione del Linguaggio Naturale"
-  - Relatore: Prof. James Henderson
-- **Laurea Magistrale in Informatica**, University of California, Berkeley, 2006
-- **Laurea Triennale in Matematica e Informatica**, Princeton University, 2004
-  - Summa Cum Laude
-
----
-
-<h2 id="premi">Premi</h2>
-
-- **2023**: Best Paper Award, ACL 2023
-- **2021**: NSF CAREER Award
-- **2019**: Google Faculty Research Award
-- **2018**: Outstanding Young Researcher Award, AAAI
-- **2015**: Best Dissertation Award, MIT CSAIL
-
----
-
-<h2 id="media">Copertura Mediatica</h2>
-
-- [MIT Technology Review: "Il Futuro dei Modelli Linguistici"](#) - Gennaio 2024
-- [Wired: "Come l'IA sta Cambiando la Ricerca"](#) - Novembre 2023
-- [Stanford News: "Il Prof. Piergio Riceve l'NSF CAREER Award"](#) - Marzo 2021
+## Contatti
+Per comunicazioni di carattere istituzionale o proposte di collaborazione scientifica, è possibile contattarmi all'indirizzo: [piergiovanna.grossi@univr.it](mailto:piergiovanna.grossi@univr.it).
 
 </div>
