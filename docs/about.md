@@ -1,65 +1,25 @@
 ---
 layout: default
-title: About Meeeez
+title: About
 ---
 
 <div class="content-wrapper" markdown="1">
 
-# About meeez
+# About
 
-Jump to: [National Scientific Qualification](#nsq) - [Appointments](#appointments) - [Education](#education) - [Awards](#awards) - [Media Coverage](#media)
+## Professional and Academic Profile
+My name is Piergiovanna Grossi, and my academic and professional work lies at the intersection of ancient studies and information technologies applied to Cultural Heritage. As a lecturer and researcher in the field of Digital Humanities, I am dedicated to developing innovative methodologies for the management, preservation, and enhancement of historical and archaeological heritage through advanced digital tools.
 
-Associate Professor of Computer Science at Stanford University, within the Department of Computer Science.
+## Teaching and Institutional Appointments
+I currently hold several teaching positions at the University of Verona, where I coordinate workshops in Humanistic Computing, Web Design, and Digital Accessibility, with a particular focus on design and multimedia technologies for digital culture. My teaching also extends to the University of Udine, where I explore the application of Large Language Models (LLMs) and artificial intelligence in classical studies, and to the University of Bologna within the DIGITARCH Summer School, where I focus specifically on digital curation for archaeological collections.
 
-**Research Interests:** Artificial Intelligence, Language Models, Natural Language Processing, Information Extraction, Semantic Web, Knowledge Representation and Reasoning, Digital Humanities, Machine/Deep Learning, Methodologies and Tools for Collaborative Knowledge Acquisition, Computational Complexity, Algorithmic Graph Theory, Combinatorial Optimization
+## Scientific Research and Public Archaeology
+My research is characterised by a consistent commitment to the paradigms of "open knowledge" and Public Archaeology. This translates into the operational integration of Wikimedia projects and open geographic data (GFOSS) into research and scientific dissemination processes. I have coordinated numerous Archaeological Territorial Information Systems (SITA) projects, including those relating to the city of Verona and the territory of Rubiera, overseeing data modelling according to international standards and the implementation of web interfaces for public consultation. In parallel, I maintain strong collaborations with prestigious international institutions, such as the University of Zurich and the Berlin Academy of Sciences, contributing to the edition of Italian milestones for the Corpus Inscriptionum Latinarum.
 
-**Research Sectors (ERC):** PE6_7 - Artificial intelligence, intelligent systems, natural language processing, PE6_10 - Web and information systems, data management systems, information retrieval and digital libraries, data fusion
+## Digital Culture and Civic Engagement
+Beyond the strictly academic sphere, I actively promote the dissemination of digital culture and free software as tools for democracy and participation. I am among the founders of CoderDojo Padova, where I coordinate activities aimed at developing computational thinking in younger generations, and I collaborate with organisations such as Wikimedia Italia to foster the adoption of open standards and ensure the broadest possible accessibility of knowledge within cultural institutions and public administration.
 
-**Curriculum Vitae:** [EN](#) - [PDF](#) (Updated: Dec 18, 2024)
-
----
-
-<h2 id="nsq">National Scientific Qualification</h2>
-
-- **Full Professor** in Computer Science (01/B1) - Obtained 2023
-- **Associate Professor** in Computer Science (01/B1) - Obtained 2018
-
----
-
-<h2 id="appointments">Appointments</h2>
-
-- **2020 - Present**: Associate Professor, Stanford University
-- **2015 - 2020**: Assistant Professor, Stanford University
-- **2012 - 2015**: Postdoctoral Researcher, Carnegie Mellon University
-- **2010 - 2012**: Research Associate, MIT CSAIL
-
----
-
-<h2 id="education">Education</h2>
-
-- **Ph.D. in Computer Science**, Massachusetts Institute of Technology, 2010
-  - Thesis: "Neural Approaches to Natural Language Understanding"
-  - Advisor: Prof. James Henderson
-- **M.S. in Computer Science**, University of California, Berkeley, 2006
-- **B.S. in Mathematics and Computer Science**, Princeton University, 2004
-  - Summa Cum Laude
-
----
-
-<h2 id="awards">Awards</h2>
-
-- **2023**: Best Paper Award, ACL 2023
-- **2021**: NSF CAREER Award
-- **2019**: Google Faculty Research Award
-- **2018**: Outstanding Young Researcher Award, AAAI
-- **2015**: Best Dissertation Award, MIT CSAIL
-
----
-
-<h2 id="media">Media Coverage</h2>
-
-- [MIT Technology Review: "The Future of Language Models"](#) - January 2024
-- [Wired: "How AI is Changing Research"](#) - November 2023
-- [Stanford News: "Professor Piergio Receives NSF CAREER Award"](#) - March 2021
+## Contact
+For institutional communications or scientific collaboration proposals, please contact me at: [piergiovanna.grossi@univr.it](mailto:piergiovanna.grossi@univr.it).
 
 </div>
