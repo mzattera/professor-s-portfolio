@@ -61,7 +61,7 @@ Coordination and participation in national and international research projects f
 
 ---
 
-<h2 id="conferences">Conferences</h2>
+<h2 id="conferences">Board Memberships</h2>
 
 Organisation of scientific events and participation in scientific committees in the fields of Free/Open Source Software and Open Data.
 
@@ -72,7 +72,5 @@ Organisation of scientific events and participation in scientific committees in 
 - **Didattica Aperta** (Open Teaching): Coordinator of the conference on open access to computing and knowledge sharing (2010 – 2018).
 
 - **Public Archaeology in Verona** (2017): Organiser and lecturer for training days on documenting the Via Postumia through Wikipedia and OpenStreetMap.
-
-- **CoderDojo Padova**: Co-founder and coordinator of monthly training sessions teaching computational thinking to young people (2013 – ongoing).
 
 </div>
