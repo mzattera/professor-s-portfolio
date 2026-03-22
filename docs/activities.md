@@ -7,79 +7,72 @@ title: Activities
 
 # Activities
 
+This section gathers the main teaching experiences, research projects and institutional collaborations, as well as scientific contributions presented at national and international conferences.
+
 Jump to: [Teaching](#teaching) - [Projects & Collaborations](#projects) - [Conferences](#conferences)
 
 ---
 
 <h2 id="teaching">Teaching</h2>
 
-### Current Courses (2024-2025)
+University teaching and advanced training in Digital Humanities, Web Design, and Computer Science applied to Cultural Heritage.
 
-#### CS 224N - Natural Language Processing with Deep Learning
-**Winter Quarter 2025**
+### University of Verona
 
-This course provides a thorough introduction to cutting-edge neural network methods for NLP. Through lectures, assignments, and a final project, students will learn to design, implement, and understand their own neural network models.
+- **Advanced Digital Humanities Lab** (2023 – 2026)
+- **Digital Accessibility: design and multimedia technologies for the web and social media** (2022 – 2025)
+- **Web Design** (2020 – 2025)
+- **Wikipedia and Digital Humanities: translation and digitisation of cultural heritage workshop** (2020 – 2024)
+- **Web and Cultural Heritage / Web Design for Cultural Heritage** (2014 – 2025)
 
-- **Schedule**: Mon/Wed 3:00-4:20 PM
-- **Location**: Gates B01
-- [Course Website](#) | [Syllabus](#)
+### University of Bologna
 
-#### CS 229 - Machine Learning
-**Spring Quarter 2025**
+- **Digital Collection Curator for Archaeology** – Lecturer at the DIGITARCH Summer School (2025)
 
-A broad introduction to machine learning and statistical pattern recognition, covering supervised and unsupervised learning, learning theory, reinforcement learning, and adaptive control.
+### University of Udine
 
-- **Schedule**: Tue/Thu 10:30-11:50 AM
-- **Location**: Hewlett 200
-- [Course Website](#) | [Syllabus](#)
+- Seminars on AI/LLM use in Classical Studies and workshops on Wikipedia, Wikimedia Commons and Wikidata for epigraphy (2024/2025)
 
-### Past Courses
+### Yerevan State University (Armenia)
 
-- CS 224N - NLP with Deep Learning (Winter 2024)
-- CS 221 - AI: Principles and Techniques (Fall 2023)
-- CS 229 - Machine Learning (Spring 2023)
-- CS 224U - Natural Language Understanding (Spring 2022)
+- Seminar series for faculty on using Wikimedia projects as teaching tools (Erasmus+ Mobility, 2023)
+
+### University of Trieste
+
+- Workshop: "From stone to digital image – Introduction to GIS in epigraphy" (2010)
 
 ---
 
 <h2 id="projects">Projects & Collaborations</h2>
 
-### Museum of Digital Culture
-**2022 - Present**
+Coordination and participation in national and international research projects focused on archaeological data management and Open Culture.
 
-Collaboration with the Museum of Digital Culture on interactive AI-driven exhibits exploring the intersection of technology and the humanities. The project involves designing NLP-powered installations that allow visitors to interact with historical texts.
+- **Wikipedia and Archaeology** (2023 – ongoing): Creator and lead of the GLAM project funded by Wikimedia Italia, in collaboration with the Soprintendenza ABAP for the provinces of Verona, Rovigo and Vicenza.
 
-- [Project Website](#) | [Press Release](#)
+- **Archaeological GIS of Rubiera** (2019 – 2022): Implementation and update of the archaeological Territorial Information System and direction of surface surveys (Memorandum of Understanding between UniVR and Soprintendenza ABAP of Bologna/Modena/RE/FE).
 
-### University of Anne - Joint Research Program
-**2021 - Present**
+- **SITAVR – Archaeological Territorial Information System of Verona** (2011 – 2017): Head of IT infrastructure and research fellow for data mapping to CIDOC-CRM standards and the Art and Archaeology Thesaurus (Getty Institute).
 
-Interdisciplinary research program with the University of Anne focusing on collaborative knowledge acquisition and digital heritage preservation.
+- **ARIADNE Project Research Consortium** (Horizon 2020): Contact person for the partnership between the SITAR project (Rome) and the European Ariadne consortium for archaeological data interoperability.
 
-- [Program Details](#)
+- **Corpus Inscriptionum Latinarum (CIL XVII)**: Collaborator for the edition of the "Milestones of Italy" (University of Zurich / Berlin-Brandenburg Academy of Sciences) with cataloguing and graphic survey activities in Regiones VII, VIII, IX, X and XI.
 
-### Other Active Projects
-
-- **FairNLP** - Bias detection and mitigation in language models - [GitHub](#)
-- **KnowledgeGraph-QA** - Question answering over knowledge graphs - [GitHub](#)
-- **LinguaFlow** - Multilingual NLP pipeline toolkit - [GitHub](#)
+- **Web GIS Montegrotto Terme** (2007 – 2009): Project manager for the IT infrastructure of the territorial archaeological Web GIS.
 
 ---
 
-<h2 id="conferences">Conferences & Events</h2>
+<h2 id="conferences">Conferences</h2>
 
-### Organized Events
+Organisation of scientific events and participation in scientific committees in the fields of Free/Open Source Software and Open Data.
 
-- **Workshop on Responsible AI** - ACL 2024 (Co-organizer) - [Website](#)
-- **Symposium on Digital Humanities & AI** - Stanford, June 2024 - [Details](#)
-- **NLP for Social Good** - EMNLP 2023 (Co-organizer) - [Website](#)
+- **Archeofoss** (Free, Libre and Open Source Software and Open Formats in archaeological research): Member of the organising and scientific committee since 2008.
 
-### Invited Talks & Participation
+- **FOSS4G.it** (Free and Open Source Geographic Software and Data): Member of the organising and scientific committee since 2017.
 
-- **Keynote Speaker** - EACL 2024, Malta - "The Future of Multilingual NLP"
-- **Panel Member** - AI Summit 2024, San Francisco - "Ethics in Large Language Models"
-- **Invited Talk** - Google Research, 2023 - "Efficient Knowledge Extraction"
-- **Tutorial** - EMNLP 2023 - "Efficient Methods for Large Language Models" - [Slides](#)
-- **Tutorial** - ACL 2022 - "Knowledge-Enhanced NLP" - [Slides](#) | [Video](#)
+- **Didattica Aperta** (Open Teaching): Coordinator of the conference on open access to computing and knowledge sharing (2010 – 2018).
+
+- **Public Archaeology in Verona** (2017): Organiser and lecturer for training days on documenting the Via Postumia through Wikipedia and OpenStreetMap.
+
+- **CoderDojo Padova**: Co-founder and coordinator of monthly training sessions teaching computational thinking to young people (2013 – ongoing).
 
 </div>

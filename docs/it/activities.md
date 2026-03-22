@@ -8,79 +8,72 @@ lang: it
 
 # Attività
 
+In questa sezione sono raccolte le principali esperienze didattiche, i progetti di ricerca e le collaborazioni istituzionali, oltre ai contributi scientifici presentati nell'ambito di conferenze nazionali e internazionali.
+
 Vai a: [Didattica](#didattica) - [Progetti e Collaborazioni](#progetti) - [Convegni](#convegni)
 
 ---
 
 <h2 id="didattica">Didattica</h2>
 
-### Corsi Attuali (2024-2025)
+Esperienze di docenza universitaria e alta formazione in ambito Digital Humanities, Progettazione Web e Informatica applicata ai Beni Culturali.
 
-#### CS 224N - Elaborazione del Linguaggio Naturale con Deep Learning
-**Winter Quarter 2025**
+### Università degli Studi di Verona
 
-Questo corso fornisce un'introduzione approfondita ai metodi all'avanguardia delle reti neurali per l'NLP. Attraverso lezioni, esercitazioni e un progetto finale, gli studenti impareranno a progettare, implementare e comprendere i propri modelli.
+- **Laboratorio avanzato di Informatica Umanistica** (2023 – 2026)
+- **Digital Accessibility: design and multimedia technologies for the web and social media** (2022 – 2025)
+- **Progettazione Web** (2020 – 2025)
+- **Wikipedia e Digital Humanities: laboratorio di traduzione e digitalizzazione del patrimonio culturale** (2020 – 2024)
+- **Web e Beni Culturali / Progettazione web per i Beni Culturali** (2014 – 2025)
 
-- **Orario**: Lun/Mer 15:00-16:20
-- **Aula**: Gates B01
-- [Sito del Corso](#) | [Programma](#)
+### Università degli Studi di Bologna
 
-#### CS 229 - Machine Learning
-**Spring Quarter 2025**
+- **Digital Collection Curator for Archaeology** – Docente presso la Summer School DIGITARCH (2025)
 
-Un'ampia introduzione al machine learning e al riconoscimento statistico di pattern, coprendo apprendimento supervisionato, non supervisionato, teoria dell'apprendimento, apprendimento per rinforzo e controllo adattivo.
+### Università degli Studi di Udine
 
-- **Orario**: Mar/Gio 10:30-11:50
-- **Aula**: Hewlett 200
-- [Sito del Corso](#) | [Programma](#)
+- Seminari sull'uso di AI/LLM negli studi classici e workshop su Wikipedia, Wikimedia Commons e Wikidata per l'epigrafia (2024/2025)
 
-### Corsi Passati
+### Yerevan State University (Armenia)
 
-- CS 224N - NLP con Deep Learning (Winter 2024)
-- CS 221 - IA: Principi e Tecniche (Fall 2023)
-- CS 229 - Machine Learning (Spring 2023)
-- CS 224U - Comprensione del Linguaggio Naturale (Spring 2022)
+- Ciclo di seminari per docenti sull'uso dei progetti Wikimedia come strumento didattico (Mobilità Erasmus+, 2023)
+
+### Università degli Studi di Trieste
+
+- Workshop: "Dalla pietra all'immagine digitale - Introduzione al GIS in epigrafia" (2010)
 
 ---
 
 <h2 id="progetti">Progetti e Collaborazioni</h2>
 
-### Museo della Cultura Digitale
-**2022 - Presente**
+Coordinamento e partecipazione a progetti di ricerca nazionali e internazionali focalizzati sulla gestione dei dati archeologici e l'Open Culture.
 
-Collaborazione con il Museo della Cultura Digitale su mostre interattive basate sull'IA che esplorano l'intersezione tra tecnologia e discipline umanistiche. Il progetto prevede la progettazione di installazioni basate sull'NLP che permettono ai visitatori di interagire con testi storici.
+- **Wikipedia e Archeologia** (2023 – in corso): Ideatrice e responsabile del progetto GLAM finanziato da Wikimedia Italia, in collaborazione con la Soprintendenza ABAP per le province di Verona, Rovigo e Vicenza.
 
-- [Sito del Progetto](#) | [Comunicato Stampa](#)
+- **SIT Archeologico di Rubiera** (2019 – 2022): Implementazione e aggiornamento del Sistema Informativo Territoriale archeologico e direzione delle indagini di superficie (Protocollo d'Intesa Univr e Soprintendenza ABAP di Bologna/Modena/RE/FE).
 
-### Università di Anne - Programma di Ricerca Congiunto
-**2021 - Presente**
+- **SITAVR - Sistema Informativo Territoriale Archeologico di Verona** (2011 – 2017): Responsabile della struttura informatica e assegnista di ricerca per la mappatura dei dati su standard CIDOC-CRM e Art and Archaeology Thesaurus (Getty Institute).
 
-Programma di ricerca interdisciplinare con l'Università di Anne focalizzato sull'acquisizione collaborativa della conoscenza e la conservazione del patrimonio digitale.
+- **ARIADNE Project Research Consortium** (Horizon 2020): Contact person per la partnership tra il progetto SITAR (Roma) e il consorzio europeo Ariadne per l'interoperabilità dei dati archeologici.
 
-- [Dettagli del Programma](#)
+- **Corpus Inscriptionum Latinarum (CIL XVII)**: Collaboratrice per l'edizione dei "Miliari d'Italia" (Univ. di Zurigo / Accademia delle Scienze di Berlino) con attività di schedatura e rilievo grafico nelle Regiones VII, VIII, IX, X e XI.
 
-### Altri Progetti Attivi
-
-- **FairNLP** - Rilevamento e mitigazione dei bias nei modelli linguistici - [GitHub](#)
-- **KnowledgeGraph-QA** - Question answering su grafi della conoscenza - [GitHub](#)
-- **LinguaFlow** - Toolkit multilingue per pipeline NLP - [GitHub](#)
+- **Web GIS Montegrotto Terme** (2007 – 2009): Project manager per la realizzazione dell'infrastruttura informatica del Web GIS archeologico territoriale.
 
 ---
 
-<h2 id="convegni">Organizzazione e Partecipazione a Convegni</h2>
+<h2 id="convegni">Convegni</h2>
 
-### Eventi Organizzati
+Organizzazione di eventi scientifici e partecipazione a comitati scientifici nel settore del Software Libero e degli Open Data.
 
-- **Workshop on Responsible AI** - ACL 2024 (Co-organizzatore) - [Sito Web](#)
-- **Simposio su Digital Humanities & IA** - Stanford, Giugno 2024 - [Dettagli](#)
-- **NLP for Social Good** - EMNLP 2023 (Co-organizzatore) - [Sito Web](#)
+- **Archeofoss** (Free, Libre and Open Source Software and Open Formats nei processi di ricerca archeologica): Membro del comitato organizzativo e scientifico dal 2008.
 
-### Relazioni su Invito e Partecipazioni
+- **FOSS4G.it** (Software e Dati Geografici Free e Open Source): Membro del comitato organizzativo e scientifico dal 2017.
 
-- **Keynote Speaker** - EACL 2024, Malta - "Il Futuro dell'NLP Multilingue"
-- **Panelist** - AI Summit 2024, San Francisco - "Etica nei Large Language Models"
-- **Relazione su Invito** - Google Research, 2023 - "Estrazione Efficiente della Conoscenza"
-- **Tutorial** - EMNLP 2023 - "Metodi Efficienti per Large Language Models" - [Slides](#)
-- **Tutorial** - ACL 2022 - "NLP Potenziato dalla Conoscenza" - [Slides](#) | [Video](#)
+- **Didattica Aperta**: Coordinatrice del convegno su libero accesso all'informatica e condivisione della conoscenza (2010 – 2018).
+
+- **Public Archaeology a Verona** (2017): Organizzatrice e docente delle giornate formative sulla documentazione della via Postumia tramite Wikipedia e OpenStreetMap.
+
+- **CoderDojo Padova**: Co-fondatrice e coordinatrice di incontri formativi mensili per l'insegnamento del pensiero computazionale ai ragazzi (2013 – in corso).
 
 </div>
